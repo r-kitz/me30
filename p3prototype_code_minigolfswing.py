@@ -1,4 +1,7 @@
-# P3 prototype - controlling motor direction with P2 Hbridge and potentiometer
+# Rose Kitz
+# ME30
+# 11/1/22
+# P3 prototype - controlling motor direction with P2 Hbridge and potentiometer to create 'mini golf swing'
 
 # STATUS
 # button press to make motor spin forward and backward once. need to release and press again for motor to move again.
@@ -114,4 +117,3 @@ while True:
 
     print(was_pressed)
     time.sleep(0.01) # wait
-# Write your code here :-)

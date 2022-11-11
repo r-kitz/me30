@@ -204,6 +204,7 @@ is_start = True # variable to tell later in code for something to run only when 
 
 while True:
 
+    # get current pot position of dc pot and set dc motor to mapped speed
     run_dc()
 
     # --- CAN SET SWING ANGLE AND SPEED ANY TIME THAT A SWING ISN'T GOING
